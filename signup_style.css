@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFont;
+    src: url(one_piece_font.ttf);
+}
+body {
+    font-family: myFont !important;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://tr.rbxcdn.com/ea6f49c583a304f454422a87ca0755c5/768/432/Image/Png');
+    letter-spacing: 3px;
+    color: #200E3A;
+    overflow-y: hidden;
+}
+.signup-header {
+    font-size: 60px;
+    position: relative;
+    font-weight: 600;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 510px;
+    border-radius: 50px;
+}
+input {
+    border: 1px solid #200E3A;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    position: relative;
+}
+button {
+    border: 1px solid #200E3A;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    font-size: 25px;
+    font-family: myFont;
+    position: relative;
+    color: white;
+}
+.login {
+    font-size: 20px;
+    position: relative;
+}
+h3 {
+    font-size: 28px;
+    position: relative;
+    display: block;
+    justify-content: start;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.username {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.password {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+img {
+    position: absolute;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.btn.btn-danger {
+    background-color: #200E3A;
+    border: none;
+}
+.label {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
