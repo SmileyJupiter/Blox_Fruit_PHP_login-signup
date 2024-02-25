@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="main_style.css">
-    <title>Document</title>
     
+    <title>Document</title>
 </head>
 <body>
   <div class="nav">
@@ -80,21 +80,21 @@
           <h1 id="explore"> EXPLORE </h1>
         <div class="obtainable-2">
           <ul style="margin-top: 10px; list-style-type: none;">
-            <li><a href="fruits.php" target="iFrame"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/4/40/FRUITS.png" width="121px"></a></li>
-            <li style="margin-top: 10px; list-style-type: none;"><a href="login.php" target="iFrame"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/0/0b/GUNS.PNG" width="120px"></a></li>
+            <li><a href="fruits.php"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/4/40/FRUITS.png" class="img"   width="121px"></a></li>
+            <li style="margin-top: 10px; list-style-type: none;"><a href="guns.php"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/0/0b/GUNS.PNG" class="img" width="120px"></a></li>
           </ul>
           <ul style="margin-top: 10px; list-style-type: none;">
-            <li><a href=""><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2e/SWORDS.PNG" width="120px"></a></li>
-            <li><a href=""><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Dark_Coat.png" width="105px"><br><span style="margin-top: 10px; list-style-type: none; background-color: #0f52ba; color: white; font-weight: 500;">ACCESSORIES</a></span></li>
+            <li><a href="swords.php"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2e/SWORDS.PNG" class="img"  width="120px"></a></li>
+            <li><a href="accessory.php"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Dark_Coat.png" class="img"   width="105px"><br><span style="margin-top: 10px; list-style-type: none; background-color: #0f52ba; color: white; font-weight: 500;">ACCESSORIES</a></span></li>
           </ul>
           <ul style="margin-top: 10px; list-style-type: none;">
-            <li><a href=""><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8b/F._STYLES.PNG" width="120px"></a></li>
-            <li style="margin-top: 10px;"><a href=""><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/ISLANDS.PNG" width="120px"></a></li>
+            <li><a href="fighting_styles.php"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8b/F._STYLES.PNG" class="img"  width="120px"></a></li>
+            <li style="margin-top: 10px;"><a href="#"><img src="https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/ISLANDS.PNG" class="img"  width="120px"></a></li>
           </ul>
         </div>
       </div>
 </center>
 
-      <iframe src="" name="iFrame" scrolling="no" width="100%" style="height: 750px; margin-top: 20px"></iframe>
+      
 </body>
 </html>

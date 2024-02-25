@@ -8,5 +8,5 @@ $dbName = "blox_fruits";
 $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
 
 if (!$conn) {
-    die("Connection FailedL " . mysqli_connect_error());
+    die("Connection Failed: " . mysqli_connect_error());
 }
